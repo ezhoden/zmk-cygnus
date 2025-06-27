@@ -65,7 +65,7 @@
 &trans  &kp N1     &kp N2     &kp N3  &kp N4  &kp N5    &kp N6     &kp N7                          &kp N8                     &kp N9                   &kp N0     &trans
 &trans  &trans     &trans     &trans  &trans  &trans    &trans     &hml RIGHT_SHIFT RIGHT_BRACKET  &hmr RIGHT_GUI LEFT_BRACE  &hmr RIGHT_ALT UP_ARROW  &kp BSLH   &trans
 &trans  &kp GRAVE  &kp EQUAL  &trans  &trans  &trans    &kp SLASH  &kp MINUS                       &kp LEFT_ARROW             &kp DOWN_ARROW           &kp RIGHT  &trans
-                              &trans  &trans  &trans    &trans     &trans                          &trans
+                              &trans  &trans  &trans    &trans     &trans                          &studio_unlock
             >;
         };
 
