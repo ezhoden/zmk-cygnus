@@ -53,28 +53,28 @@
 
         default_layer {
             bindings = <
-&none  &kp Q  &kp W             &kp E            &kp R                &kp T              &kp Y      &kp U               &kp I             &kp O             &kp P             &none
-&none  &kp A  &hml RIGHT_ALT S  &hml LEFT_GUI D  &hml LEFT_SHIFT F    &kp G              &kp H      &hmr RIGHT_SHIFT J  &hmr RIGHT_GUI K  &hmr RIGHT_ALT L  &kp SEMI          &none
-&none  &kp Z  &kp X             &kp C            &hml LEFT_CONTROL V  &kp B              &kp N      &hmr RCTRL M        &kp COMMA         &kp DOT           &kp SINGLE_QUOTE  &none
-                                &lt 4 ESC        &lt 2 TAB            &lt 1 SPACE    &kp BACKSPACE  &lt 2 DELETE        &lt 4 ENTER
+&none  &kp Q  &kp W              &kp E      &kp R                   &kp T              &kp Y             &kp U             &kp I                 &kp O               &kp P      &none
+&none  &kp A  &hml LEFT_SHIFT S  &kp D      &hml LEFT_ALT F         &hml LEFT_GUI G    &hmr RIGHT_GUI H  &hmr RIGHT_ALT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_SHIFT L  &kp SEMI   &none
+&none  &kp Z  &kp X              &kp C      &kp V                   &kp B              &kp N             &kp M             &kp COMMA             &kp DOT             &kp SLASH  &none
+                                 &lt 4 ESC  &mt LEFT_CONTROL SPACE  &lt 2 TAB          &lt 1 ENTER       &lt 4 BACKSPACE   &lt 4 SQT
             >;
         };
 
         lower_layer {
             bindings = <
-&trans  &kp N1     &kp N2     &kp N3  &kp N4  &kp N5    &kp N6     &kp N7                          &kp N8                     &kp N9                   &kp N0     &trans
-&trans  &trans     &trans     &trans  &trans  &trans    &trans     &hml RIGHT_SHIFT RIGHT_BRACKET  &hmr RIGHT_GUI LEFT_BRACE  &hmr RIGHT_ALT UP_ARROW  &kp BSLH   &trans
-&trans  &kp GRAVE  &kp EQUAL  &trans  &trans  &trans    &kp SLASH  &kp MINUS                       &kp LEFT_ARROW             &kp DOWN_ARROW           &kp RIGHT  &trans
+&trans  &kp N1     &kp N2     &kp N3       &kp N4      &kp N5    &kp N6     &kp N7                          &kp N8                     &kp N9                   &kp N0     &trans
+&trans  &trans     &trans     &trans       &trans      &trans    &trans     &hml RIGHT_SHIFT RIGHT_BRACKET  &hmr RIGHT_GUI LEFT_BRACE  &hmr RIGHT_ALT UP_ARROW  &kp BSLH   &trans
+&trans  &kp GRAVE  &kp EQUAL  &trans       &trans      &trans    &kp SLASH  &kp MINUS                       &kp LEFT_ARROW             &kp DOWN_ARROW           &kp RIGHT  &trans
                               &bootloader  &sys_reset  &trans    &trans     &sys_reset                      &studio_unlock
             >;
         };
 
         raise_layer {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5           &kp F6      &kp F7     &kp F8    &kp F9         &kp F10   &trans
-&trans  &trans  &trans  &trans  &trans  &trans           &kp TILDE2  &kp TILDE  &trans    &kp PG_UP      &kp BSLH  &trans
-&trans  &trans  &trans  &trans  &trans  &trans           &kp UNDER   &kp PLUS   &kp HOME  &kp PAGE_DOWN  &kp END   &trans
-                        &trans  &trans  &kp BACKSPACE    &bootloader      &trans     &sys_reset
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5           &kp F6       &kp F7     &kp F8      &kp F9         &kp F10   &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &kp TILDE2   &kp TILDE  &trans      &kp PG_UP      &kp BSLH  &trans
+&trans  &trans  &trans  &trans  &trans  &trans           &kp UNDER    &kp PLUS   &kp HOME    &kp PAGE_DOWN  &kp END   &trans
+                        &trans  &trans  &kp BACKSPACE    &bootloader  &trans     &sys_reset
             >;
         };
 
@@ -87,12 +87,12 @@
             >;
         };
 
-        arrows {
+        navigation {
             bindings = <
-&trans  &trans  &trans          &trans          &trans     &trans    &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP  &trans
-&trans  &trans  &trans          &kp UP_ARROW    &trans     &trans    &trans      &trans    &trans      &kp UP_ARROW  &trans        &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans      &trans    &kp LEFT    &kp DOWN      &kp RIGHT     &trans
-                                &trans          &trans     &trans    &trans      &trans    &trans
+&trans  &kp N1  &kp N2          &kp N3          &kp N4     &kp N5    &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &trans
+&trans  &trans  &trans          &kp UP_ARROW    &trans     &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans    &trans    &trans    &trans  &trans     &trans  &trans
+                                &trans          &trans     &trans    &trans    &trans    &trans
             >;
         };
     };
